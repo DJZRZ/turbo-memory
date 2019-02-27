@@ -1,0 +1,7 @@
+gradebooks = {'business analytics': {'Alice': 95, 'Troy': 92}, 'Python programming': {'James': 89, 'Charles': 100, 'Bryn': 69, 'Alice': 100}, 'R programming': {'Troy': 93, 'James': 100, 'Charles': 88}}
+{outer_k: 
+ 
+    [inner_k for (inner_k, inner_v) in outer_v.items() 
+    if inner_v == 100 or inner_v == 95]
+        
+    for (outer_k, outer_v) in gradebooks.items()}
