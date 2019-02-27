@@ -2,6 +2,7 @@ gradebooks = {'business analytics': {'Alice': 95, 'Troy': 92}, 'Python programmi
 {outer_k: 
  
     [inner_k for (inner_k, inner_v) in outer_v.items() 
+    #I want to find the inner_k using maximum value of inner_v
     if inner_v == 100 or inner_v == 95]
         
     for (outer_k, outer_v) in gradebooks.items()}
