@@ -6,3 +6,5 @@ gradebooks = {'business analytics': {'Alice': 95, 'Troy': 92}, 'Python programmi
     if inner_v == 100 or inner_v == 95]
         
     for (outer_k, outer_v) in gradebooks.items()}
+    
+    #Result shoud be: {'business analytics': ['Alice'], 'Python programming': ['Charles', 'Alice'], 'R programming': ['James']}
